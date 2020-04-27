@@ -3,7 +3,14 @@ import re
 text = 'abcded efgh'
 my_string = "Let's write RegEx!"
 
+#match start searching from beginning 
 print(re.match(r'abc', text))
+# return None 
+print(re.match(r'efg', text))
+
+#search will go through the entire string 
+print(re.search(r'efg', text))
+
 print(re.split(r'a', text))
 
 # find all words 
