@@ -1,9 +1,10 @@
 # Import necessary modules
-from nltk.tokenize import sent_tokenize 
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import sent_tokenize, word_tokenize
 
-scene_one = "KING ARTHUR: Whoa there!  [clop clop clop]"
+
+scene_one = "All work and no play makes jack a dull boy, all work and no play"
 #print(scene_one)
+print(word_tokenize(scene_one))
 
 # Split scene_one into sentences: sentences
 sentences = sent_tokenize(scene_one)
