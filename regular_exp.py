@@ -36,3 +36,9 @@ print(re.split(spaces, my_string))
 digits = r"\d+"
 print(re.findall(digits, my_string))
 
+# Write a regular expression to search for anything in square brackets: pattern1
+pattern1 = r"\[.*]+"
+
+# Find the script notation at the beginning of the fourth sentence and print it
+pattern2 = r"[A-z]+:"
+
