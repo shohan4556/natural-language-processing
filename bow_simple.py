@@ -7,6 +7,7 @@ article = 'this is a demo article, demo article of wikipedia'
 
 # Tokenize the article: tokens
 tokens = word_tokenize(article)
+print(type(tokens))
 
 # Convert the tokens into lowercase: lower_tokens
 lower_tokens = [i.lower() for i in tokens]
